@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.learautomation.testcases.TestCaseWithoutFramework
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.86 sec <<< FAILURE!
+test1(com.learautomation.testcases.TestCaseWithoutFramework)  Time elapsed: 11.073 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [Something went wrong...] but found [Something went wrong...M]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.learautomation.testcases.TestCaseWithoutFramework.test1(TestCaseWithoutFramework.java:30)
+
